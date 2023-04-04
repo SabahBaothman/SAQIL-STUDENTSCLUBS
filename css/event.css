@@ -1,0 +1,39 @@
+.events{
+    margin-top: 8rem;
+}
+
+.events__Countainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    padding-bottom: 4rem;
+}
+.event{
+    background: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.event:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.event__info{
+    padding: 2rem;
+}
+
+.event__info p {
+    margin: 1.2rem 0 1.5rem;
+    font-size: 0.9rem;
+}
+
+footer{
+    background: var(--color-bg1);
+    min-height: 25vh;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }

@@ -1,0 +1,93 @@
+.bb{
+    text-align: center;
+    margin-top: 8rem;
+}
+#blog-contanier{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 8vw 8vw 8vw;
+
+}
+
+#blog-contanier .blogs{
+    width: 60%;
+}
+
+#blog-contanier .blogs img{
+    width: 100%;
+    border-radius: 19px;
+}
+#blog-contanier .blogs .post h3{
+    text-align: right;
+color: gainsboro;
+padding: 15px 0 10px 0;
+}
+
+#blog-contanier .blogs .post p{
+    text-align: right;
+    color:darkgray;
+    padding-bottom: 10px;
+    }
+
+    #blog-contanier .blogs .post a{
+        border-radius: 5px;
+        font-weight: 600;
+       margin-bottom: 2rem;
+       margin-left: 31rem;
+        }
+
+
+
+#blog-contanier .cate{
+    width: 30%;
+}
+
+#blog-contanier .cate h2{
+    padding-top: 15px;
+    text-align: right;
+    padding-right: 1rem;
+    margin-bottom: 1rem;  
+
+
+
+}
+
+#blog-contanier .cate p{
+    text-align: right;
+    padding-right: 1rem;
+    margin-bottom: 1rem;  
+
+}
+
+#blog-contanier .cate a{
+    margin-left: 10rem;
+    text-decoration: none;
+    color: darkgray;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: right;
+    
+}
+
+#blog-contanier .cate a{
+    text-decoration: none;
+    color: darkgray;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: right;
+}
+
+
+
+
+
+
+footer{
+    background: var(--color-bg1);
+    min-height: 25vh;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }

@@ -1,0 +1,123 @@
+/* الميزات */
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15rem;
+    text-align: center;
+  }
+  
+  .features h3 {
+    margin-top: -3rem;
+    color: var(--white);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .features h6 {
+    text-align: center;
+    color: var(--gray);
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  .feature {
+    
+    background-color: var(--color-bg1);
+    display: flex;
+    border-radius: 3rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .feature .content {
+    padding: 4rem;
+    flex: 1;
+  }
+  
+  .feature .content i {
+    text-align: center;
+    color: var(--dark-purple);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .feature .content h2 {
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .feature .content h6 {
+    padding: 2rem;
+    color: var(--gray);
+    font-size: 1.2rem;
+    width: 80%;
+    line-height: 2;
+  }
+  
+  .feature img {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+
+
+.about{
+    margin-top: 2rem;
+
+}
+
+.about__Countainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    padding-bottom: 4rem;
+    
+}
+.aboutt{
+    background: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.aboutt:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.aboutt__info{
+    padding: 2rem;
+    text-align: center;
+}
+
+.aboutt__info p {
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
+
+.sociacl{
+    padding-top: 2rem;
+}
+
+.sociacl i{
+    color: gainsboro;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.sociacl i:hover {
+    color: var(--white);
+}
+
+footer{
+    background: var(--color-bg1);
+    min-height: 25vh;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
